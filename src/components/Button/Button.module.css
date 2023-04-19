@@ -1,0 +1,25 @@
+.button {
+    border-radius: 20px;
+    font-size: 11px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 10px 22px;
+    border: 1px solid var(--primary);
+    transition: var(--duration);
+}
+
+.contained {
+    color: var(--grey-light);
+    background: var(--primary);
+}
+
+.outlined {
+    background: transparent;
+    color: var(--primary);
+}
+
+.button:hover {
+    background: var(--button-hover);
+    border-color: var(--button-hover);
+    color: var(--grey-light);
+}
