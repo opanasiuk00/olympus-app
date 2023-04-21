@@ -20,8 +20,20 @@
     letter-spacing: 0.24px;
 }
 
+.span {
+    font-size: 10px;
+    line-height: 13px;
+    text-transform: uppercase;
+    color: var(--dark-light);
+    white-space: nowrap;
+}
+
 .dark {
     color: var(--primary);
+}
+
+.grey {
+    color: var(--grey);
 }
 
 .light {

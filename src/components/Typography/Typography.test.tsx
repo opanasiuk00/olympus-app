@@ -15,10 +15,12 @@ const typographyTags: { tag: TypographyTag }[] = [
 	{ tag: 'h3' },
 	{ tag: 'h4' },
 	{ tag: 'p' },
+	{ tag: 'span' },
 ];
-const typographyColors: { color: 'dark' | 'light' }[] = [
+const typographyColors: { color: 'dark' | 'light' | 'grey' }[] = [
 	{ color: 'dark' },
 	{ color: 'light' },
+	{ color: 'grey' },
 ];
 
 
@@ -27,8 +29,8 @@ describe('Typography', () => {
 		render(<Typography {...TYPOGRAPHY_TEST} />);
 
 		// eslint-disable-next-line testing-library/no-node-access
-		const textButton = screen.getByText(TYPOGRAPHY_TEST.children);
-		expect(textButton).toBeInTheDocument();
+		const children = screen.getByText(TYPOGRAPHY_TEST.children);
+		expect(children).toBeInTheDocument();
 	});
 
 	typographyTags.forEach(typographyTag => {

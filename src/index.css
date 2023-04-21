@@ -2,6 +2,7 @@
     --primary: rgba(20, 23, 34, 1);
     --grey-light: rgba(239, 233, 224, 1);
     --button-hover: rgba(34, 39, 60, 1);
+    --grey: rgba(126, 126, 126, 1);
     --duration: all 0.3s ease;
 }
 
@@ -27,5 +28,14 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: inherit;
+    font-weight: 400;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
 }
