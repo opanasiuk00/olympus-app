@@ -6,7 +6,7 @@ export type ButtonProps = React.ComponentPropsWithRef<'button'> & {
 	variant: 'contained' | 'outlined';
 };
 
-export const Button = ({ children, variant, className, ...props }: ButtonProps) => {
+export const Button = ({ children, variant, className = '', ...props }: ButtonProps) => {
 	return (
 		<button className={`${styles.button}  ${styles[variant]} ${className}`} {...props}>
 			<span>{children}</span>
