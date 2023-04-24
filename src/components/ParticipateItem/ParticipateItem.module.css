@@ -1,0 +1,28 @@
+.participateItem {
+    max-width: 545px;
+    background: var(--purple);
+    padding: 36px 44px;
+}
+
+.head {
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+.head h3 {
+    padding-top: 100px;
+}
+
+.content {
+    padding-top: 26px;
+}
+
+.content a span {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 10px;
+}
+
+.left {
+    border-radius: 25px 0 0 25px;
+}

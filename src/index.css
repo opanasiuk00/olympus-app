@@ -3,6 +3,7 @@
     --grey-light: rgba(239, 233, 224, 1);
     --button-hover: rgba(34, 39, 60, 1);
     --grey: rgba(126, 126, 126, 1);
+    --purple: rgba(121, 131, 153, 1);
     --duration: all 0.3s ease;
 }
 
@@ -38,4 +39,10 @@ p {
 
 a {
     text-decoration: none;
+    white-space: nowrap;
+    color: inherit;
+}
+
+li {
+    list-style: none;
 }
