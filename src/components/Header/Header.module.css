@@ -1,0 +1,11 @@
+.content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 45px;
+}
+
+.menu {
+    display: flex;
+    gap: 35px;
+}
