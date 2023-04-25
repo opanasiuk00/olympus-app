@@ -2,10 +2,28 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    gap: 45px;
+    gap: 40px;
+    height: 60px;
 }
 
-.menu {
-    display: flex;
-    gap: 35px;
+@media (max-width: 768px) {
+    .content {
+        justify-content: space-between;
+    }
+}
+
+.mobileMenu {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .mobileMenu {
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    .desktopMenu {
+        display: none;
+    }
 }

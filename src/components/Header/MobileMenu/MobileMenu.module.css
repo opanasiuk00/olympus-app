@@ -1,0 +1,67 @@
+.button {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.line1,
+.line2,
+.line3 {
+    width: 100%;
+    height: 2px;
+    background: var(--background);
+    position: absolute;
+    left: 0;
+    transition: var(--duration);
+}
+
+.line1 {
+    top: 0;
+}
+
+.line2 {
+    top: 50%;
+    transform: translateY(-50%);
+}
+.line3 {
+    bottom: 0;
+}
+
+.active .line2 {
+    height: 0px;
+}
+
+.active .line1 {
+    top: 50%;
+    transform: translateY(-50%);
+    transform: rotate(45deg);
+}
+.active .line3 {
+    top: 50%;
+    transform: translateY(-50%);
+    transform: rotate(-45deg);
+}
+
+.menu {
+    background: var(--background);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin: 0;
+    padding: 20px;
+    border-radius: 0 0 0 25px;
+    z-index: 100;
+    transform: translateX(100%);
+    transition: var(--duration);
+    box-shadow: 0 0 2px 2px var(--background);
+}
+
+.activeMenu {
+    transform: translateX(0);
+}
