@@ -1,0 +1,24 @@
+.news {
+	padding: 100px 0;
+}
+
+.content {
+	display: grid;
+	gap: 30px;
+	grid-template-columns: 1fr minmax(290px, 750px);
+}
+
+@media (max-width: 768px) {
+	.content {
+		grid-template-columns: 1fr;
+	}
+}
+
+.title {
+	white-space: nowrap;
+}
+
+.items {
+	display: grid;
+	gap: 15px;
+}
