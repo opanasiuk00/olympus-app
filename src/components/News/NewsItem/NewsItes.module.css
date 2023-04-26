@@ -1,12 +1,10 @@
 .news {
 	background: var(--grey-light);
 	border-radius: 25px;
-	max-width: 750px;
-	min-width: 290px;
 	padding: 34px 44px;
 }
 
-@media (width <= 768px) {
+@media (width: 768px) {
 	.news {
 		padding: 20px;
 	}
@@ -32,7 +30,7 @@
 .content {
 	align-items: end;
 	display: flex;
-	gap: 10px;
+	gap: 20px;
 	justify-content: space-between;
 }
 
