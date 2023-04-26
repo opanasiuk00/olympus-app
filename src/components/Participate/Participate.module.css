@@ -1,0 +1,20 @@
+.participate {
+	padding-top: 100;
+}
+
+.content h2 {
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+.content > div {
+	display: flex;
+}
+
+@media (max-width: 678px) {
+	.content > div {
+		align-items: center;
+		flex-direction: column;
+		gap: 10px;
+	}
+}

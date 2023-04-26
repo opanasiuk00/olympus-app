@@ -6,7 +6,7 @@ export type TypographyTag = 'h1' | 'h2' | 'h3' | 'h4' | 'span' | 'p';
 export type TypographyProps = {
 	children: React.ReactNode;
 	tag: TypographyTag;
-	color?: 'dark' | 'light' | 'grey';
+	color?: 'dark' | 'light' | 'grey' | 'inherit';
 	className?: string;
 };
 
