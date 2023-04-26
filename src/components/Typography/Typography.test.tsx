@@ -27,7 +27,6 @@ const typographyColors: { color: 'dark' | 'light' | 'grey' }[] = [
 describe('Typography', () => {
 	test('renders children', () => {
 		render(<Typography {...TYPOGRAPHY_TEST} />);
-
 		// eslint-disable-next-line testing-library/no-node-access
 		const children = screen.getByText(TYPOGRAPHY_TEST.children);
 		expect(children).toBeInTheDocument();

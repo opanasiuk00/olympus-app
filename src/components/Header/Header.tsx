@@ -8,7 +8,7 @@ import { DesktopMenu } from './DesktopMenu/DesktopMenu';
 export type MenuItemType = {
 	name: string;
 	href: string;
-}
+};
 
 export const MenuItem: MenuItemType[] = [
 	{ name: 'STAKE', href: '#' },
@@ -21,14 +21,19 @@ export const MenuItem: MenuItemType[] = [
 ];
 
 export const Header = () => {
-
 	return (
 		<header className={styles.header}>
 			<Container className={styles.content}>
-				<DesktopMenu menu={MenuItem} className={styles.desktopMenu} />
-				<MobileMenu menu={MenuItem} className={styles.mobileMenu} />
+				<DesktopMenu
+					menu={MenuItem}
+					className={styles.desktop}
+				/>
+				<MobileMenu
+					menu={MenuItem}
+					className={styles.mobile}
+				/>
 				<Button variant='contained'>Enter App</Button>
 			</Container>
 		</header>
-	)
+	);
 };

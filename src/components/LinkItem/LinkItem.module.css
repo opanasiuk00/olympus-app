@@ -1,10 +1,10 @@
 .link {
-    font-size: 11px;
-    line-height: 13px;
-    text-transform: uppercase;
-    transition: var(--duration);
+	font-size: 11px;
+	line-height: 13px;
+	text-transform: uppercase;
+	transition: var(--duration);
 }
 
 .link:hover {
-    color: var(--button-hover);
+	color: var(--grey);
 }

@@ -1,25 +1,25 @@
 .button {
-    border-radius: 20px;
-    font-size: 11px;
-    text-transform: uppercase;
-    cursor: pointer;
-    padding: 10px 22px;
-    border: 1px solid var(--primary);
-    transition: var(--duration);
+	border: 1px solid var(--primary);
+	border-radius: 20px;
+	cursor: pointer;
+	font-size: 11px;
+	padding: 10px 22px;
+	text-transform: uppercase;
+	transition: var(--duration);
 }
 
 .contained {
-    color: var(--grey-light);
-    background: var(--primary);
+	background: var(--primary);
+	color: var(--grey-light);
 }
 
 .outlined {
-    background: transparent;
-    color: var(--primary);
+	background: transparent;
+	color: var(--primary);
 }
 
 .button:hover {
-    background: var(--button-hover);
-    border-color: var(--button-hover);
-    color: var(--grey-light);
+	background: var(--button-hover);
+	border-color: var(--button-hover);
+	color: var(--grey-light);
 }
