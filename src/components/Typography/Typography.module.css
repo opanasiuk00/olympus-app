@@ -39,3 +39,7 @@
 .light {
 	color: var(--grey-light);
 }
+
+.inherit {
+	color: inherit;
+}
