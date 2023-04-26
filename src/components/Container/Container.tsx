@@ -3,6 +3,7 @@ import styles from './Container.module.css';
 
 export type ContainerProps = React.ComponentPropsWithRef<'div'> & {
 	children: React.ReactNode,
+	className?: string,
 };
 
 export const Container = ({ children, className = '', ...props }: ContainerProps) => {

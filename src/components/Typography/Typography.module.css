@@ -1,41 +1,41 @@
 .h1,
 .h2 {
-    font-size: 42px;
-    line-height: 53px;
+	font-size: 42px;
+	line-height: 53px;
 }
 
 .h3 {
-    font-size: 33px;
-    line-height: 40px;
+	font-size: 33px;
+	line-height: 40px;
 }
 
 .h4 {
-    font-size: 16px;
-    line-height: 18px;
+	font-size: 16px;
+	line-height: 18px;
 }
 
 .p {
-    font-size: 12px;
-    line-height: 17px;
-    letter-spacing: 0.24px;
+	font-size: 12px;
+	letter-spacing: 0.24px;
+	line-height: 17px;
 }
 
 .span {
-    font-size: 10px;
-    line-height: 13px;
-    text-transform: uppercase;
-    color: var(--dark-light);
-    white-space: nowrap;
+	color: var(--dark-light);
+	font-size: 10px;
+	line-height: 13px;
+	text-transform: uppercase;
+	white-space: nowrap;
 }
 
 .dark {
-    color: var(--primary);
+	color: var(--primary);
 }
 
 .grey {
-    color: var(--grey);
+	color: var(--grey);
 }
 
 .light {
-    color: var(--grey-light);
+	color: var(--grey-light);
 }
