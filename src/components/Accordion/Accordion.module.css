@@ -1,0 +1,32 @@
+.accordion {
+	border-bottom: 1px solid var(--grey);
+	max-width: 750px;
+	overflow: hidden;
+	padding: 5px;
+	transition: all 0.3s ease;
+}
+
+.summary {
+	align-items: start;
+	cursor: pointer;
+	display: grid;
+	grid-template-columns: 1fr auto;
+}
+
+.summary h2 {
+	padding: 50px 0 20px;
+}
+
+.summary svg {
+	height: 17px;
+	width: 17px;
+}
+.details {
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.3s ease;
+}
+
+.details.active {
+	max-height: 500px;
+}
