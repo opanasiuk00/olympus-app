@@ -6,6 +6,7 @@ import { TopSection } from './components/TopSection/TopSection';
 import { News } from './components/News/News';
 import { Participate } from './components/Participate/Participate';
 import { Faq } from './components/Faq/Faq';
+import { ProtocolStats } from './components/ProtocolStats/ProtocolStats';
 
 export const App = () => {
 	return (
@@ -13,6 +14,7 @@ export const App = () => {
 			<Header />
 			<main>
 				<TopSection />
+				<ProtocolStats />
 				<Participate />
 				<News />
 				<Faq />
