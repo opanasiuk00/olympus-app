@@ -5,6 +5,7 @@ import { Footer } from './components/Footer/Footer';
 import { TopSection } from './components/TopSection/TopSection';
 import { News } from './components/News/News';
 import { Participate } from './components/Participate/Participate';
+import { Faq } from './components/Faq/Faq';
 
 export const App = () => {
 	return (
@@ -14,6 +15,7 @@ export const App = () => {
 				<TopSection />
 				<Participate />
 				<News />
+				<Faq />
 			</main>
 			<Footer />
 		</div>
